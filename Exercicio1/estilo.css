@@ -1,0 +1,23 @@
+body{
+    background-color: #405fc2;
+}
+
+h1{
+    border: dashed;
+    border-color: black;
+    text-align: center;
+    color: #051979;
+}
+
+p{
+    text-align: center;
+}
+
+li{
+    font-size: 20px;
+}
+
+#principal{
+    height: 200px;
+    width: 300px;
+}
