@@ -36,5 +36,50 @@ nav a:hover {
 
 .formulario{
 	border: solid;
+	border-color: grey;
 	margin: 2% 30% 30% 30%;
+}
+
+h2{
+	margin-top: 2%;
+	text-align: center;
+	margin-bottom: 0.5%;
+	font-size: 30px;
+}
+
+label{
+	margin-left: 5%;
+}
+
+input{
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-bottom: 0.5%;
+
+}
+
+.txt{
+	width: 515px;
+}
+
+select{
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-bottom: 0.5%;
+}
+
+textarea{
+	margin-left: 5%;
+	margin-bottom: 0.5%;
+}
+
+button{
+	color: white;
+    text-align: center;
+    width: 300px;
+    padding: 15px 20px;
+    border: orange;
+    background-color: orange;
+    font-size: 18px;
+    margin: 2% 31%;
 }
