@@ -1,0 +1,40 @@
+header {
+	background: #160703;
+	padding: 20px 0;
+}
+
+#logop{
+    margin-left: 30px;
+    width: 6rem;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 30px 0 30px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #ddc9b9;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration:solid;
+    transition: 0.5s;
+	color: #b16828;
+	text-decoration:overline;	
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contatos.css">
+	<link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="background.css">
+</head>
+<body>
+<header>
+		<div class="caixa">
+			<h1><img id="logop" src="logo.png"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produto.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+        <main>
+            <div class="formulario">
+                <h2>Preencha o formulario de contato abaixo:</h1>
+					<label for="">Nome e Sobrenome:
+						<br>
+						<input class="txt" type="text" placeholder="Nome e Sobrenome" required>
+					</label>
+					<br>
+					<label for="">Email:
+						<br>
+						<input class="txt" type="text" placeholder="seuemail@dominio.com" required>
+					</label>
+					<br>
+					<label for="">Telefone:
+						<br>
+						<input class="txt" type="tel" placeholder="(xx)xxxx-xxxx" required> 
+					</label>
+					<br>
+					<label id="mensagem" for="">Mensagem:
+						<br>
+						<textarea name="texto" id="digitamensagem" cols="68" rows="10"></textarea>
+					</label>
+					<br>
+					<label id="certificar" for="">Como prefere o nosso contato?
+						<br>
+						<input class="bola" type="radio" name="contato">Email
+						<br>
+						<input class="bola" type="radio" name="contato">Telefone
+						<br>
+						<input class="bola" type="radio" name="contato">WhatsApp
+					</label>
+					<br>
+					<label for="horário">Qual horário prefere ser atendido?
+						<br>
+						<select name="Teste" id="">
+							<option selected disabled value="    "></option>
+							<option value="1">Manhã</option>
+							<option value="2">Tarde</option>
+							<option value="3">Noite</option>
+						</select>
+					</label>
+					<label id="notificar" for="">
+						<br>
+						<input type="checkbox">Gostaria de receber nossas novidades por email?
+					</label>
+					<br>
+					<button>
+						Enviar Formulário
+					</button>
+            </div>
+		</main>
+		<footer>
+			<h1><img id="logop" src="logo.png"></h1>
+		</footer>
+</body>
+</html>
